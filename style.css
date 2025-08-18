@@ -1,0 +1,29 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+input, button {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Scrollbar para o chat */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 3px;
+}
